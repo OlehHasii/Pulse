@@ -58,5 +58,8 @@ $(document).ready(function(){
       return false;
     });
 
+    //WOW animations
+    new WOW().init();
+
 });
 

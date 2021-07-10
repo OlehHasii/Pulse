@@ -31,4 +31,12 @@
             color: #FF0000;
         }
     }
+    &__icon {
+        &_animated {
+            animation-name: heartbeat;
+            animation-duration: 3s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
+    }
 }
